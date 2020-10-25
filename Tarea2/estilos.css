@@ -1,0 +1,83 @@
+
+.contenedor-celular{
+    background-color: black;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    left:500px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2%;
+}
+
+.caja-superior{
+    
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+.camara{
+    border-radius: 100%;
+    border: solid gray;
+    height: 10px;
+    width: 10px;
+    order: 2;
+    position: relative;
+    top:20px;
+    left:30px;  
+}
+.notificaciones{
+    
+    border-radius: 100%;
+    background-color: turquoise;
+    border: solid gray;
+    height: 5px;
+    width: 5px;
+    order: 3;
+    position:relative;
+    left:40px;
+    top:23px;
+}
+
+.audio{
+    background-color: black;
+    height: 50px;
+    border-radius: 13%;
+    width: 6px;
+    position: relative;
+    right: 4px;
+    top: 100px;
+    order: 1;
+}
+.pantalla{
+    background-color: white;
+    background-image: url("assets/logo.png");
+    background-size:250px 50px ;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 94%;
+}
+
+.caja-inferior{
+    background-color: ;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.boton-inicio{
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    border: solid gray;
+    position: relative;
+    top: 10px;
+}   

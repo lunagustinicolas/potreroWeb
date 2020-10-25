@@ -1,0 +1,57 @@
+
+
+.orden{
+    display: flex;
+    justify-content: center;
+    
+    background-color: skyblue;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+}
+.contenedor{
+    display:flex;
+    background-color: white;
+    height: 300px;
+    width: 900px;
+}
+
+.caja{
+    height:300px ;
+    width: 300px;
+    
+}
+
+.caja> h3{
+    letter-spacing: 4px;
+    color: blue;
+    text-align: center;
+    
+}
+
+.caja> p{
+    color: gray;
+    /*FALTA OPACITY*/
+    opacity: 0.5;
+    font-size: 14px;
+    margin: 30px;
+}
+img{
+    width: 80px;
+    top: 30px;
+    position: relative;
+    left: 110px ;
+    margin-bottom: 30px;
+}
+
+.numero::after{
+    content: "/month";
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+h3> i{
+    font-size: 10px;
+    position: relative;
+    bottom:5px;
+}
