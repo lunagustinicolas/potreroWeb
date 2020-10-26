@@ -34,13 +34,16 @@ img{
     height: 300px;
     position: absolute;
     top:80px;
-    
+    transition-duration: 3000ms;
 
 }
 
+
+
 .card:hover img{
-    animation: change 3s forwards;
-   
+    /*animation: change 3s forwards;*/
+    transform: scale(2.5) translateX(50%) translateY(-30%);
+    transition-duration: 3000ms;
 }
 
 .card:hover .content{
@@ -55,7 +58,7 @@ img{
         transform: translateX(-70%);
     }
 }
-
+/*
 @keyframes change {
 
   
@@ -63,7 +66,7 @@ img{
         transform: scale(2.5) translateX(50%) translateY(-30%);
     }
 }
-
+*/
 span{
     background-color: black;
     color: white;

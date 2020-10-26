@@ -77,7 +77,7 @@
     height: 30px;
     width: 150px;
     background-color: black;
-    border: solid gray;
+    border: ridge gray;
     position: relative;
     top: 10px;
 }   
