@@ -19,8 +19,9 @@
 .caja{
     height:300px ;
     width: 300px;
-    
+    cursor: pointer;   
 }
+
 
 .caja> h3{
     letter-spacing: 4px;
