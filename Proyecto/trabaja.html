@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>das Foto - fotografia</title>
+    <link rel="icon" href="img/logo.png" type="image/ico">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/8cc86c3a0a.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+    <header class = " container-fluid ">
+        <div class= "row" style="position: relative;">
+            <div class ="col-xl-2   col-lg-2  col-xs-12 logo">
+              <a href="index.html"> 
+                <i class="fas fa-camera logo"></i>
+              </a>
+              <h1 >das Foto</h1>
+            </div>
+            <nav class = "col-xl-10   col-lg-10 col-xs-2 navegador">
+                <ul>
+                    <li> <a href="index.html">HOME</a>  </li>
+                    <li>   <a href="contacto.html">CONTACTO</a>  </li>
+                    <li> <a href="trabaja.html">TRABAJA</a> </li>
+                    <li>  <a href="galeria.html">GALERIA</a>   </li>
+                    <li> <a href="acerca.html">ACERCA DE NOSOTROS</a> </li>
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+    <section>
+  
+     
+        <h2 style="color:white; display: block;" > Formulario de Empleo</h2>
+        
+        <div class="row mt-5 justify-content-center">
+         
+      
+      
+            <div class="col-xl-6 col-lg-6 col-xs-12 pb-4">
+                <form action="#" method="#">
+                   
+                    <div class="form-group">
+                        <label for="nombre"style="color:white;" >Nombre Completo</label>     
+                        <input type="text" id="nombre" class="form-control" placeholder="Nombre completo">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="fecha" style="color:aliceblue;">Fecha de Nacimiento</label>
+                        
+                        <input type="date" required id="fecha"  style=" margin-left: 5px;color: white;" value="30/08/1994">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cv">Adjunte cv</label>
+                        <input type="file" id="cv">
+                    </div>
+                    <div class="form-group">
+                        <label for="nacionalidad">Nacionalidad</label>
+                        <select  id="nacionaldiad">
+                            <option >ARG</option>
+                            <option >BOLIVIA</option>
+                            <option >USA</option>
+                        </select>
+
+                    </div>
+                   <div class="form-group">
+                       <label for="mail">E-mail</label>
+                       <input type="email" class="form-control" id ="mail" placeholder="email@example.com">
+                   </div>
+                   <div class="form-group">
+                        <label for="exp">Experiencia</label>
+                       <textarea class="form-control" id="exp" type ="text" placeholder="Ingrese consulta"></textarea>
+
+                    </div>
+                    <div class="form-group">
+                    
+                    
+                    <label for="mujer">Mujer</label>
+                    
+                    <input type="radio" name ="sexo" id ="mujer" value="mujer">
+                    
+                    <label for="hombre">Hombre</label>
+                    
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    
+                    <label for="hombre">Otro</label>
+                    
+                    <input type="radio" name="sexo" id="otro" value="otro">
+                    
+                </div>
+                    
+                    <button class="btn btn-success btn-block"> ENVIAR </button>
+                </form>
+            </div>
+        </div>
+      </section>
+
+    <footer class= "container-fluid pt-4">
+      
+      
+      
+        
+        <div class="redesLogos">
+          
+          <div class="contenedorRedes">
+
+            <div class="redesLogos">
+              <a href="https://www.facebook.com">
+
+                <i class="fab fa-facebook-square redes"></i>
+              </a>
+              
+            </div>
+
+            <div class="redesLogos">
+
+              <a href="https://www.twitter.com">
+
+                <i class="fab fa-twitter-square redes"></i>
+              </a>
+            </div>
+            <div class="redesLogos">  
+              <a href="https://www.instagram.com">
+                
+                <i class="fab fa-instagram-square redes"></i>
+              </a>
+              
+            </div>
+          </div>
+            
+        
+
+
+       </div>
+        
+        
+        <span></span><p id="pie" style="text-align: center;" class ="mt-3">Designed by Agustin Nicolas Luna</p>
+        
+        
+    </footer>
+
+    
+</body>
+</html>
