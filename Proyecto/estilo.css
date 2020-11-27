@@ -3,7 +3,9 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color: black;
+    background-color:black;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header{
@@ -13,7 +15,7 @@ header{
     text-align: left;
 
     
-    position: sticky;
+    /*position: sticky;*/
     top:0px
 }
 
@@ -54,6 +56,8 @@ li{
 
     color: red;
     opacity: 0.8;
+
+    word-wrap: none;
 
 }
 
@@ -180,3 +184,22 @@ label{
 }
 
 
+
+.muestra img{
+
+transition-duration: 2000ms;
+
+}
+
+
+.muestra:hover img{
+
+    transform:  scale(1.2);
+    transition-duration: 1000ms;
+}
+
+
+a{
+
+    color:inherit;
+}
